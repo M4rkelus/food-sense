@@ -1,0 +1,25 @@
+{
+  "name": "school-utils-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:scss": "gulp styles",
+    "watch": "gulp watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.9"
+  },
+  "browserslist": [
+    "last 6 version",
+    "> 5%",
+    "IE 10"
+  ]
+}

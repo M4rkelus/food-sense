@@ -1,0 +1,145 @@
+.slider {
+  margin: 0 0 30px;
+
+  @media (max-width: 1175px) {
+    margin: 0 0 20px;
+  }
+
+  @media (max-width: 787px) {
+    margin: 0 0 39px;
+  }
+
+  @media (max-width: 479px) {
+    margin: 0 0 29px;
+  }
+
+  &__baner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: no-repeat url("../../../images/baner.jpg") center center/cover;
+    min-height: 445px;
+
+    @media (max-width: 767px) {
+      min-height: 353px;
+    }
+
+    @media (max-width: 479px) {
+      min-height: 373px;
+    }
+  }
+
+  &__header {
+    margin: 0;
+    background-color: $color-white;
+    padding: 15px 20px 12px 20px;
+    letter-spacing: 0.01em;
+    font-style: italic;
+    font-family: $font-main;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 400;
+    color: $color-dark;
+
+    @media (max-width: 767px) {
+      opacity: 0.6;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    @media (max-width: 479px) {
+      padding: 15px 8px 12px;
+    }
+  }
+
+  &__description {
+    margin: 0 0 69px;
+    background-color: $color-dark;
+    padding: 14px 29px 14px 24px;
+    font-style: italic;
+    font-family: $font-main;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    color: $color-white;
+
+    @media (max-width: 767px) {
+      margin: 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    @media (max-width: 479px) {
+      padding: 11px 29px 14px 8px;
+    }
+  }
+
+  &__tabs {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 1px;
+    margin: 0;
+    max-height: 85px;
+    line-height: 0;
+
+    @media (max-width: 787px) {
+      display: none;
+    }
+  }
+
+  &__tab-item {
+    flex: 1 1 0;
+  }
+
+  &__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    border: none;
+    background-color: $color-lite;
+    min-height: 85px;
+    width: 100%;
+    padding: 5px 0 0 20px;
+    font-style: normal;
+    font-family: $font-main;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: $color-primary;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+    @media (max-width: 1175px) {
+      align-items: center;
+      align-content: center;
+      min-height: 35px;
+      padding: 0;
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    &:hover {
+      background-color: $color-lite-active;
+    }
+
+    &_active {
+      background-color: $color-lite-active;
+    }
+  }
+
+  &__button-text {
+    font-style: italic;
+    font-family: $font-main;
+    font-size: 10px;
+    line-height: 19px;
+    font-weight: 400;
+
+    @media (max-width: 1175px) {
+      display: none;
+    }
+  }
+}

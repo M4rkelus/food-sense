@@ -1,0 +1,128 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 23px;
+  margin-bottom: 41px;
+  max-width: 896px;
+
+  @media (max-width: 1175px) {
+    margin-bottom: 31px;
+  }
+
+  @media (max-width: 767px) {
+    flex-wrap: wrap;
+    gap: 14px 32px;
+  }
+
+  @media (max-width: 479px) {
+    flex-direction: column;
+    gap: 29px;
+    padding: 0 52px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    flex: 1 1 0;
+
+    @media (max-width: 767px) {
+      gap: 16px;
+    }
+  }
+
+  &__img {
+    border: 1px solid $color-smokie;
+    max-height: 143px;
+    max-width: 100%;
+    box-sizing: border-box;
+    object-fit: cover;
+    padding: 10px;
+    box-shadow: 0px 4px 10px -1px rgba(34, 60, 80, 0.2);
+
+    @media (max-width: 1175px) {
+      max-height: 113px;
+    }
+
+    @media (max-width: 767px) {
+      max-height: 150px;
+      min-width: 256px;
+    }
+
+    @media (max-width: 620px) {
+      max-height: 150px;
+      min-width: 180px;
+    }
+
+    @media (max-width: 479px) {
+      max-height: 200px;
+      min-width: 0;
+    }
+  }
+
+  &__header {
+    margin: 0;
+    letter-spacing: -0.02em;
+    font-style: normal;
+    font-family: $font-main;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    color: $color-primary;
+
+    @media (max-width: 767px) {
+      font-size: 22px;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    letter-spacing: -0.02em;
+    font-style: normal;
+    font-family: $font-main;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--color--dark);
+
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__date {
+    margin: 0;
+    letter-spacing: -0.02em;
+    font-style: normal;
+    font-family: $font-main;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: $color-smokie;
+
+    @media (max-width: 767px) {
+      margin-right: 6px;
+      font-size: 16px;
+    }
+  }
+
+  &__link {
+    letter-spacing: -0.02em;
+    font-style: normal;
+    font-family: $font-main;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: $color-primary;
+
+    @media (max-width: 767px) {
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,135 @@
+.subscribe-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-top: 1px dashed $color-smokie;
+  border-bottom: 1px dashed $color-smokie;
+  margin-bottom: 29px;
+  box-sizing: border-box;
+  padding: 9px 18px;
+
+  @media (max-width: 1175px) {
+    margin-bottom: 22px;
+    padding: 8px 18px 10px 14px;
+  }
+
+  @media (max-width: 767px) {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 27px;
+    padding-bottom: 17px;
+  }
+
+  @media (max-width: 479px) {
+    gap: 12px 0;
+    padding: 8px 18px 30px 18px;
+    padding-left: 18px;
+  }
+
+  &__icon {
+    margin: 0 16px 4px 0;
+
+    @media (max-width: 991px) {
+      margin: 0 16px 15px 0;
+    }
+
+    @media (max-width: 787px) {
+      margin: 0 16px 16px 4px;
+    }
+
+    @media (max-width: 479px) {
+      margin-left: 0;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    max-width: 530px;
+    font-style: italic;
+    font-family: $font-main;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: $color-dark;
+
+    @media (max-width: 1175px) {
+      max-width: 363px;
+    }
+
+    @media (max-width: 767px) {
+      max-width: 450px;
+      box-sizing: border-box;
+    }
+
+    @media (max-width: 479px) {
+      max-width: 360px;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    margin-left: auto;
+
+    @media (max-width: 1175px) {
+      margin-bottom: 9px;
+    }
+
+    @media (max-width: 991px) {
+      margin: 4px 0 0 auto;
+    }
+    @media (max-width: 767px) {
+      justify-content: space-between;
+      margin-left: 0;
+      width: 100%;
+    }
+
+    @media (max-width: 479px) {
+      justify-content: normal;
+      gap: 22px;
+    }
+  }
+
+  &__input {
+    border: 1px solid $color-smokie;
+    background: $color-white;
+    max-height: 22px;
+    width: 160px;
+    box-sizing: border-box;
+
+    @media (max-width: 787px) {
+      width: 394px;
+    }
+
+    @media (max-width: 479px) {
+      width: 312px;
+    }
+  }
+
+  &__button {
+    border: 1px solid $color-smokie;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    background: linear-gradient(180deg, #f4f3f3 0%, #bbb9b9 100%);
+    height: 23px;
+    width: 80px;
+    box-sizing: border-box;
+    padding: 0;
+    font-style: normal;
+    font-family: $font-main;
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 400;
+    color: $color-dark;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    text-align: center;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
