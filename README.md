@@ -1,8 +1,10 @@
 # Домашнее задание
 
+[Cсылка на проект в GitHub Pages](https://m4rkelus.github.io/food-sense/index.html "Cсылка на проект в GitHub Pages")
+
 #### Необходимо реализовать адаптивную верстку страницы сайта.
 
-[Макеты](https://www.figma.com/file/XeWzrTMu0ZyFGeHNAWojBO/Task1?node-id=23%3A18 "Макеты")
+[Ссылка на макеты в Figma](https://www.figma.com/file/XeWzrTMu0ZyFGeHNAWojBO/Task1?node-id=23%3A18 "Макеты")
 
 #### Требования:
 
