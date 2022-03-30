@@ -259,9 +259,8 @@ template {
     min-width: 256px;
   }
 }
-@media (max-width: 620px) {
+@media (max-width: 640px) {
   .cards__img {
-    max-height: 150px;
     min-width: 180px;
   }
 }
@@ -692,8 +691,8 @@ template {
   border: 1px solid #e5e5e5;
   border-radius: 2px;
   margin-bottom: 2px;
-  background: -o-linear-gradient(top, #f4f3f3 0%, #bbb9b9 100%);
   background: -webkit-gradient(linear, left top, left bottom, from(#f4f3f3), to(#bbb9b9));
+  background: -o-linear-gradient(top, #f4f3f3 0%, #bbb9b9 100%);
   background: linear-gradient(180deg, #f4f3f3 0%, #bbb9b9 100%);
   height: 23px;
   width: 80px;
