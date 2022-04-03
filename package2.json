@@ -1,5 +1,5 @@
 {
-  "name": "food-sense",
+  "name": "school-utils-sample",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,14 +12,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.17.8",
-    "@babel/preset-env": "^7.16.11",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
     "gulp": "^4.0.2",
-    "gulp-babel": "^8.0.0",
-    "gulp-sass": "^5.1.0",
-    "sass": "^1.49.9",
     "gulp-autoprefixer": "^8.0.0",
-    "gulp-concat": "^2.6.1"
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.9"
   },
   "browserslist": [
     "last 6 version",

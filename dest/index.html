@@ -7,15 +7,15 @@
     <title>Food Sense</title>
     <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <body class="page">
+  <body class="page preload">
     <div class="flex-container">
       <aside class="aside">
-        <img src="./images/icon-logo.svg" alt="Logo" class="aside__logo" />
+        <img src="./../images/icon-logo.svg" alt="Logo" class="aside__logo" />
         <nav class="aside__nav" aria-label="Site Menu">
           <ul class="aside__links list">
             <li class="aside__link-wrap">
               <img
-                src="./images/food-icon.svg"
+                src="./../images/food-icon.svg"
                 alt="Tastemakers"
                 class="aside__link-logo"
               />
@@ -23,7 +23,7 @@
             </li>
             <li class="aside__link-wrap">
               <img
-                src="./images/blog-icon.svg"
+                src="./../images/blog-icon.svg"
                 alt="Blog"
                 class="aside__link-logo"
               />
@@ -31,7 +31,7 @@
             </li>
             <li class="aside__link-wrap">
               <img
-                src="./images/a-list-icon.svg"
+                src="./../images/a-list-icon.svg"
                 alt="The A-List"
                 class="aside__link-logo"
               />
@@ -39,7 +39,7 @@
             </li>
             <li class="aside__link-wrap">
               <img
-                src="./images/camera-icon.svg"
+                src="./../images/camera-icon.svg"
                 alt="Contribure"
                 class="aside__link-logo"
               />
@@ -47,7 +47,7 @@
             </li>
             <li class="aside__link-wrap">
               <img
-                src="./images/about-icon.svg"
+                src="./../images/about-icon.svg"
                 alt="About"
                 class="aside__link-logo"
               />
@@ -59,7 +59,7 @@
         <div class="aside__tweet">
           <h3 class="aside__header">Latest tweet</h3>
           <button class="aside__button">
-            <img src="./images/twitter-button-icon.svg" alt="twitter icon" />
+            <img src="./../images/twitter-button-icon.svg" alt="twitter icon" />
             Join the Conversation
           </button>
         </div>
@@ -71,7 +71,7 @@
             Facebook.
           </p>
           <button class="aside__button" type="button">
-            <img src="./images/twitter-button-icon.svg" alt="twitter icon" />
+            <img src="./../images/twitter-button-icon.svg" alt="twitter icon" />
             Join the Community
           </button>
         </div>
@@ -80,6 +80,33 @@
       <main class="content">
         <section class="slider" aria-label="Slider">
           <div class="slider__baner">
+            <img
+              class="slider__img"
+              src="./../images/baner-1.jpeg"
+              alt="People cook food"
+            />
+          </div>
+          <div class="slider__baner">
+            <img
+              class="slider__img"
+              src="./../images/baner-2.jpg"
+              alt="Scientist looking through a microscope"
+            />
+          </div>
+          <div class="slider__baner">
+            <img
+              class="slider__img"
+              src="./../images/baner-3.jpg"
+              alt="
+            Notepad with nutrition plan"
+            />
+          </div>
+          <div class="slider__baner">
+            <img
+              class="slider__img"
+              src="./../images/baner-4.jpg"
+              alt="Scientist looking through a microscope"
+            />
             <h2 class="slider__header">Share your Foor Sence</h2>
             <p class="slider__description">
               Submit yout favorite recipes, become a contributor, or get
@@ -87,9 +114,14 @@
             </p>
           </div>
 
+          <button class="slider__previous" aria-label="Previous">
+            &#10094;
+          </button>
+          <button class="slider__next" aria-label="Next">&#10095;</button>
+
           <ul class="slider__tabs list" aria-label="Slider navigation tabs">
             <li class="slider__tab-item">
-              <button class="slider__button">
+              <button class="slider__button" aria-label="Tastemakers">
                 Tastemakers
                 <span class="slider__button-text"
                   >Feast your eyes & get reciepes!</span
@@ -97,7 +129,7 @@
               </button>
             </li>
             <li class="slider__tab-item">
-              <button class="slider__button">
+              <button class="slider__button" aria-label="Blog">
                 Blog
                 <span class="slider__button-text"
                   >News, how-tos, stories, and more</span
@@ -105,7 +137,7 @@
               </button>
             </li>
             <li class="slider__tab-item">
-              <button class="slider__button">
+              <button class="slider__button" aria-label="The A-List">
                 The A-List
                 <span class="slider__button-text"
                   >Handpicked, absolute favorites</span
@@ -113,7 +145,7 @@
               </button>
             </li>
             <li class="slider__tab-item">
-              <button class="slider__button slider__button_active">
+              <button class="slider__button" aria-label="Contribute">
                 Contribute
                 <span class="slider__button-text"
                   >We want to hear from you!</span
@@ -125,7 +157,7 @@
 
         <section class="subscribe-box" aria-label="Subscribe">
           <img
-            src="./images/mail-icon.svg"
+            src="./../../images/mail-icon.svg"
             alt="mail icon"
             class="subscribe-box__icon"
           />
@@ -153,7 +185,7 @@
         <section class="cards" aria-label="Cards">
           <article class="cards__item">
             <img
-              src="./images/image-1.png"
+              src="./../images/image-1.png"
               alt="vegan chips"
               class="cards__img"
             />
@@ -171,7 +203,7 @@
 
           <article class="cards__item">
             <img
-              src="./images/image-2.png"
+              src="./../images/image-2.png"
               alt="healthy food"
               class="cards__img"
             />
@@ -189,7 +221,7 @@
 
           <article class="cards__item">
             <img
-              src="./images/image-3.png"
+              src="./../images/image-3.png"
               alt="woman with parsley"
               class="cards__img"
             />
@@ -205,7 +237,7 @@
 
           <article class="cards__item">
             <img
-              src="./images/image-4.png"
+              src="./../images/image-4.png"
               alt="books growing on plants"
               class="cards__img"
             />
@@ -244,21 +276,22 @@
         <ul class="footer__socials list">
           <li>
             <a href="#" class="footer__social-link"
-              ><img src="./images/twitter-icon.svg" alt="twitter"
+              ><img src="./../images/twitter-icon.svg" alt="twitter"
             /></a>
           </li>
           <li>
             <a href="#" class="footer__social-link"
-              ><img src="./images/fb-icon.svg" alt="facebook"
+              ><img src="./../images/fb-icon.svg" alt="facebook"
             /></a>
           </li>
           <li>
             <a href="#" class="footer__social-link"
-              ><img src="./images/rss-icon.svg" alt="rss"
+              ><img src="./../images/rss-icon.svg" alt="rss"
             /></a>
           </li>
         </ul>
       </nav>
     </footer>
+    <script src="./js/index.js"></script>
   </body>
 </html>
