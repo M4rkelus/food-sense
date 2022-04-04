@@ -1,14 +1,13 @@
 .aside {
   display: flex;
   flex-direction: column;
-  margin-right: 44px;
   max-width: 140px;
 
   @media (max-width: 991px) {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 31px;
+    margin-bottom: 31px;
     max-width: 100%;
     padding: 20px 0;
   }
